@@ -1,4 +1,4 @@
-package main;
+package sliding_window;
 
 public class MaxSumSubArrayOfSizeK {
   public static int findMaxSumSubArray(int k, int[] arr) {
@@ -21,3 +21,6 @@ public class MaxSumSubArrayOfSizeK {
             + MaxSumSubArrayOfSizeK.findMaxSumSubArray(2, new int[] { 2, 3, 4, 1, 5 }));
   }
 }
+
+//  The above algorithm’s time complexity will be O(N*K), where ‘N’ is the total number of elements in the given array.
+//  Is it possible to find a better algorithm than this?
