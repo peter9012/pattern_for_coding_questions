@@ -23,7 +23,8 @@ class StringAnagrams {
       if (matched == charFrequencyMap.size()) // have we found an anagram?
         resultIndices.add(windowStart);
 
-      if (windowEnd >= pattern.length() - 1) { // shrink the window
+      if (windowEnd >= pattern.length() - 1) {
+        // shrink the window
         char leftChar = str.charAt(windowStart++);
         if (charFrequencyMap.containsKey(leftChar)) {
           if (charFrequencyMap.get(leftChar) == 0)
