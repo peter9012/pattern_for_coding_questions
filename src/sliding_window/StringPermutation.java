@@ -41,7 +41,7 @@ class StringPermutation {
     System.out.println("Permutation exist: " + StringPermutation.findPermutation("oidbcaf", "abc"));
     System.out.println("Permutation exist: " + StringPermutation.findPermutation("odicf", "dc"));
     System.out.println("Permutation exist: " + StringPermutation.findPermutation("bcdxabcdy", "bcdyabcdx"));
-    System.out.println("Permutation exist: " + StringPermutation.findPermutation("aaacb", "abc"));
+    System.out.println("Permutation exist: " + StringPermutation.findPermutation("aaacb", "abcd"));
   }
 }
 
