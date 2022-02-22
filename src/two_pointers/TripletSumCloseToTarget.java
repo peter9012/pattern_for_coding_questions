@@ -2,7 +2,7 @@ package two_pointers;
 
 import java.util.*;
 
-class TripletSumCloseToTarget {
+public class TripletSumCloseToTarget {
 
   public static int searchTriplet(int[] arr, int targetSum) {
     if (arr == null || arr.length < 3)
