@@ -2,7 +2,6 @@ package two_pointers;
 
 import java.util.*;
 
-
 public class SubarrayProductLessThanK {
 
   public static List<List<Integer>> findSubarrays(int[] arr, int target) {
