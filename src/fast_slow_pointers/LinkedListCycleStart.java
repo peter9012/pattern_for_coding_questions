@@ -5,6 +5,7 @@ class LinkedListCycleStart {
   public static ListNode findCycleStart(ListNode head) {
     int cycleLength = 0;
     // find the LinkedList cycle
+
     ListNode slow = head;
     ListNode fast = head;
     while (fast != null && fast.next != null) {
