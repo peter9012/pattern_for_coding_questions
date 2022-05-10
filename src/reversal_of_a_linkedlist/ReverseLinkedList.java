@@ -1,14 +1,5 @@
 package reversal_of_a_linkedlist;
 
-class ListNode {
-  int value = 0;
-  ListNode next;
-
-  ListNode(int value) {
-    this.value = value;
-  }
-}
-
 class ReverseLinkedList {
 
   public static ListNode reverse(ListNode head) {
